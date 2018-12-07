@@ -2,6 +2,7 @@ import {Component, ViewEncapsulation} from '@angular/core';
 
 @Component({
   selector: 'app-root',
+  
   template: ` <app-banners></app-banners> 
               <app-services></app-services>
               <app-products></app-products>

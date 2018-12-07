@@ -1,41 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css";
-@import '~@angular/material/theming';
+/*
+    Theme Name: Delicious
+    Theme URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
 
-// Include the common styles for Angular Material. We include this here so that you only
-// have to load a single css file for Angular Material in your app.
-// Be sure that you only ever include this mixin once!
-@include mat-core();
-
-
-
-// Define the palettes for your theme using the Material Design palettes available in palette.scss
-// (imported above). For each palette, you can optionally specify a default, lighter, and darker
-// hue. Available color palettes: https://material.io/design/color/
-
-
-// Create the theme object (a Sass map containing all of the palettes).
-//$app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
-
-// Include theme styles for core and each component used in your app.
-// Alternatively, you can import and @include the theme mixins for each component
-// that you are using.
-//@include angular-material-theme($app-theme);
-
-
-
-@font-face{
-    font-family:'FontAwesome';
-    src:url('assets/fonts/fontawesome-webfont.eot?v=4.7.0');
-    src:url('assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
-        url('assets/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
-        url('assets/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
-        url('assets/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
-        url('assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
-    font-weight:normal;
-    font-style:normal;
+body {
+	font-size: 15px;
+    line-height: 1.52;
+    color: #717f86;
+    font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
 }
-
+ol, ul {
+	list-style: none;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -49,7 +30,7 @@ table {
 	border-spacing: 0;
 }
 #banner{
-    background: url(assets/images/banner/banner-bg3.jpg) no-repeat center top;
+    background: url(../../images/banner-bg.jpg) no-repeat center top;
     background-size: cover;
     min-height: 630px;
 }
@@ -90,6 +71,7 @@ table {
 }
 .sidenav a {
     padding: 8px 8px 8px 32px;
+    text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
@@ -284,16 +266,16 @@ table {
     margin-right: 10px;
     color: #ffb03b;
 }
-#about img
+#about images
 {
     border: 5px solid rgb(255, 176, 59);
     border-radius: 2px;
 }
 #event{
-    background: url('assets/images/res02.jpg') no-repeat;
+    background: url('../../images/res02.jpg') no-repeat;
     background-size: cover;
 }
-.left-images img {
+.left-images images {
     height: 308px;
     width: 100%;
 }
